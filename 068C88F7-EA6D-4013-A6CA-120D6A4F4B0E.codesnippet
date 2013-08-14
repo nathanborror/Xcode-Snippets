@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>sv</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>scrollContent = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"&lt;#name#&gt;"]];
+
+scrollView = [[UIScrollView alloc] initWithFrame:self.view.frame];
+[scrollView addSubview:scrollContent];
+[scrollView setContentSize:scrollContent.bounds.size];
+[self.view addSubview:scrollView];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>068C88F7-EA6D-4013-A6CA-120D6A4F4B0E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Creates a scrollView with UIImageView for content</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Objective-C ScrollView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
