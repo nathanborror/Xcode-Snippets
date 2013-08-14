@@ -10,9 +10,9 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>[&lt;#UIView#&gt;.layer setShadowColor:[UIColor blackColor].CGColor];
-  [&lt;#UIView#&gt;.layer setShadowOffset:CGSizeMake(0, 0)];
-  [&lt;#UIView#&gt;.layer setShadowOpacity:.5];
-  [&lt;#UIView#&gt;.layer setShadowRadius:20];</string>
+[&lt;#UIView#&gt;.layer setShadowOffset:CGSizeMake(0, 0)];
+[&lt;#UIView#&gt;.layer setShadowOpacity:.5];
+[&lt;#UIView#&gt;.layer setShadowRadius:20];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>C4121C9E-22DC-4CDE-A67C-6C6E44A51A1A</string>
 	<key>IDECodeSnippetLanguage</key>

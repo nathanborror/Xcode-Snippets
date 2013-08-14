@@ -9,9 +9,9 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>scrollContent = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"&lt;#name#&gt;"]];
+	<string>UIImageView *scrollContent = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"&lt;#name#&gt;"]];
 
-scrollView = [[UIScrollView alloc] initWithFrame:self.view.frame];
+UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:self.view.frame];
 [scrollView addSubview:scrollContent];
 [scrollView setContentSize:scrollContent.bounds.size];
 [self.view addSubview:scrollView];</string>
