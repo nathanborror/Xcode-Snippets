@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>json</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSString *filePath = [[NSBundle mainBundle] pathForResource:@"&lt;#file#&gt;" ofType:@"json"];
+NSData *fileContents = [NSData dataWithContentsOfFile:filePath];
+NSDictionary *data = [NSJSONSerialization JSONObjectWithData:fileContents options:kNilOptions error:nil];
+&lt;#array#&gt; = [[NSMutableArray alloc] init];
+for (NSDictionary *dict in data) {
+    [&lt;#array#&gt; addObject:dict];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EAFC93F7-AEE3-40E9-B94D-3197642BDB2F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Load local JSON data</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Objective-C Local JSON</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
