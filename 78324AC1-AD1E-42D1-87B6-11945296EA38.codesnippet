@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>adfl</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+  _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
+  &lt;#UIViewController#&gt; *viewController = [[&lt;#UIViewController#&gt; alloc] init];
+  [_window setRootViewController:viewController];
+
+  [_window setBackgroundColor:[UIColor whiteColor]];
+  [_window makeKeyAndVisible];
+  return YES;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>78324AC1-AD1E-42D1-87B6-11945296EA38</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Objective-C applicationDidFinishLaunching</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
